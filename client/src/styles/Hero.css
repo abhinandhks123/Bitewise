@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #E9EFEC;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .hero h1 {
+    font-size: 86px;
+    margin: 0;
+    color: #16423C;
+    font-weight: 900;
+  }
+  
+  .hero h2 {
+    font-size: 86px;
+    color: #6A9C89;
+    margin: 10px 0 20px;
+    font-weight: 900;
+  }
+  
+  .upload-analyze {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .upload-analyze button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #75a47f;
+    background: none;
+    cursor: pointer;
+    color: #75a47f;
+    font-size:16px;
+  }
+  
+  .upload-analyze .analyze {
+    background-color: #16423C;
+    color: #E9EFEC;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .hero p {
+    color: #666;
+    font-size: 14px;
+  }
+
+  
+  @media (max-width: 768px){
+    .hero {
+      text-align: center;
+      padding:20px 20px;
+      background-color: #E9EFEC;
+      font-family: 'Poppins', sans-serif;
+  
+    }
+
+    .hero h1 {
+      font-size: 66px;
+      margin: 0;
+      color: #16423C;
+      font-weight: 900;
+      line-height: 70px;
+
+    }
+
+    .hero h2 {
+      font-size: 66px;
+      color: #6A9C89;
+      margin: 10px 0 20px;
+      font-weight: 900;
+      line-height: 70px;
+    }
+
+  }

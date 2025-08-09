@@ -1,0 +1,87 @@
+.result-container {
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E9EFEC;
+  }
+  
+  /* Larger screens */
+  @media (min-width: 1024px) {
+    .result-container {
+      padding: 40px 200px;
+    }
+  }
+  
+  .image-preview {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-preview img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .food-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .quantity {
+    font-style: italic;
+    color: #777;
+  }
+  
+  .nutrition {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .totals-card {
+    margin-top: 30px;
+    background: #064e1256;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  .disclaimer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    .result-container {
+      padding: 20px;
+    }
+  
+    .cards-container {
+      grid-template-columns: 1fr; /* stack cards vertically */
+    }
+  
+    .image-preview img {
+      max-width: 100%;
+    }
+  }
+  

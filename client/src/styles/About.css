@@ -1,0 +1,73 @@
+.about-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #E9EFEC;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #16423C;
+  }
+  
+  .about-intro {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-section {
+    margin-bottom: 30px;
+  }
+  
+  .about-section h2 {
+    font-size: 1.5rem;
+    color: #16423C;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p,
+  .about-section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-section ul li {
+    background: #E9EFEC;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+  }
+  
+  .about-disclaimer {
+    font-size: 0.9rem;
+    color: #777;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Mobile responsive */
+  @media (max-width: 768px) {
+    .about-title {
+      font-size: 2rem;
+    }
+  
+    .about-intro {
+      font-size: 1rem;
+    }
+  
+    .about-section h2 {
+      font-size: 1.3rem;
+    }
+  }
+  

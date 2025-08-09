@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  font-family: 'Poppins';
+  background-color: #E9EFEC;
+  color: #1f1f1f;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #1f1f1f;
+}
+
+.logo span {
+  color: #7fad6b;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.highlight {
+  color: #7fad6b;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.buttons {
+  margin: 2rem 0;
+}
+
+.upload-btn, .analyze-btn {
+  padding: 0.8rem 1.6rem;
+  margin: 0 0.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.upload-btn {
+  background-color: white;
+  color: #1f1f1f;
+  border: 2px solid #ccc;
+}
+
+.analyze-btn {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.subtext {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.how-it-works, .why-use {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.step {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.why-use ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.why-use li {
+  padding: 0.4rem 0;
+  font-size: 1.1rem;
+}
+
+.footer {
+  background-color: #0f2b26;
+  height: 100px;
+  margin-top: 3rem;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .steps {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .step {
+    width: 30%;
+  }
+}

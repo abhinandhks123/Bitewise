@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.why {
+    padding: 40px 20px;
+    background-color: #E9EFEC;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .why h3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 44px;
+    color: #16423C;
+  }
+  
+  .why ul {
+    list-style: none;
+    padding: 0;
+    line-height: 3;
+    color: #4d4d4da8;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 38%;
+  }
+  
+  @media (max-width: 768px) {
+    .why {
+      padding: 10px 20px;
+      background-color: #E9EFEC;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+    }
+    .why h3 {
+      margin-top: 60px;
+      margin-bottom: 20px;
+      font-size: 34px;
+      color: #16423C;
+    }
+    
+    .why ul{
+      margin-left: 0px;
+      font-size: 15px;
+
+    }
+  }

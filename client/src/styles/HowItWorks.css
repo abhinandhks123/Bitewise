@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.how {
+    text-align: center;
+    padding: 0px 10px;
+    background: #E9EFEC;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .how h3 {
+    font-size: 44px;
+  font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    color: #16423C;
+    margin-top: 40px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    border: 1px solid #64646444;
+    padding: 20px;
+    max-width: 300px;
+    min-height: 150px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  .card h4{
+    font-size: 19px;
+    color: #222222b4;
+    margin-top: 10px;
+  }
+
+  .card p{
+    font-size: 15px;
+    color: #22222281;
+    margin-top: 10px;
+  }
+
+
+
+    
+  @media (max-width: 768px){
+
+
+  .how h3 {
+    font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    color: #16423C;
+  }
+
+  }

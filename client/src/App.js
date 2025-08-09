@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer"
 import Hero from "./pages/Hero";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
       </Routes>
       <Footer/>
+      <Analytics />
     </>
   );
 }

@@ -39,6 +39,7 @@
   .back-link {
     display: inline-block;
     padding: 10px 20px;
+    margin: 5px;
     background: #6A9C89;
     color: white;
     border-radius: 8px;
